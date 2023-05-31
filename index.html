@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Builder basique</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="./script.js" defer ></script>
+</head>
+<body>
+  <div class="container">
+    <div id="toolsZone">
+      <!-- Zone d'outils -->
+      <button id="createButton">Créer div</button>
+      <button id="selectButton">Sélection div</button>
+    </div>
+
+    <div id="workZone">
+      <!-- Zone de travail -->
+      <div id="outputZone">
+      </div>
+      <button id="saveButton">Save</button>
+    </div>
+
+    <div id="paramZone">
+
+      <div id="paramContent">
+        <label for="backgroundColorInput">Background-color:</label>
+        <input type="color" id="backgroundColorInput">
+
+        <label for="widthInput">width:</label>
+        <input type="text" id="widthInput">
+
+        <label for="minHeightInput">min-height:</label>
+        <input type="text" id="minHeightInput">
+      </div>
+    </div>
+  </div>
+</body>
+</html>
