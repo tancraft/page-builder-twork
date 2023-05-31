@@ -1,0 +1,30 @@
+.container{
+    display: flex;
+    width: 100%;
+}
+
+#toolsZone{
+    background-color: greenyellow;
+}
+
+#workZone {
+    width: 60%;
+    float: left;
+  }
+
+  #outputZone{
+    background-color: orangered;
+    min-height: 50vh;
+    padding-top: 1rem;
+  }
+  
+  /* Styles pour la zone de paramètres */
+  #paramZone {
+    width: 40%;
+    float: right;
+  }
+  
+  /* Styles pour les éléments sélectionnés */
+  .selected {
+    border: 2px solid blue;
+  }
